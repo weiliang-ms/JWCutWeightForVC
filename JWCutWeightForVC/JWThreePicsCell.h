@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JWThreePicsCell.h
 //  JWCutWeightForVC
 //
 //  Created by 微凉 on 16/4/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JWThreePicsCell : UITableViewCell
 
 @end
-

@@ -7,25 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF704E857238DDFDC6028190 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7720A22876BF9347472BF1C1 /* libPods.a */; };
 		C011C5DA1CCF2DAA007B1BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C5D91CCF2DAA007B1BDA /* main.m */; };
 		C011C5DD1CCF2DAA007B1BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C5DC1CCF2DAA007B1BDA /* AppDelegate.m */; };
-		C011C5E01CCF2DAA007B1BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C5DF1CCF2DAA007B1BDA /* ViewController.m */; };
-		C011C5E31CCF2DAA007B1BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C011C5E11CCF2DAA007B1BDA /* Main.storyboard */; };
 		C011C5E51CCF2DAA007B1BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C011C5E41CCF2DAA007B1BDA /* Assets.xcassets */; };
 		C011C5E81CCF2DAA007B1BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C011C5E61CCF2DAA007B1BDA /* LaunchScreen.storyboard */; };
+		C011C5F11CCF36BF007B1BDA /* JWNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C5F01CCF36BF007B1BDA /* JWNetTool.m */; };
+		C011C5F41CCF39BC007B1BDA /* JWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C5F31CCF39BC007B1BDA /* JWTableViewController.m */; };
+		C011C5F71CCF3B7B007B1BDA /* JWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C5F61CCF3B7B007B1BDA /* JWModel.m */; };
+		C011C5FA1CCF3D21007B1BDA /* JWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C5F91CCF3D21007B1BDA /* JWViewModel.m */; };
+		C011C5FD1CCF3F7A007B1BDA /* JWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C5FC1CCF3F7A007B1BDA /* JWWebViewController.m */; };
+		C011C6041CCF45CA007B1BDA /* JWOnePictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C6021CCF45CA007B1BDA /* JWOnePictureCell.m */; };
+		C011C6051CCF45CA007B1BDA /* JWOnePictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C011C6031CCF45CA007B1BDA /* JWOnePictureCell.xib */; };
+		C011C6091CCF46CB007B1BDA /* JWBigPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C6071CCF46CB007B1BDA /* JWBigPictureCell.m */; };
+		C011C60A1CCF46CB007B1BDA /* JWBigPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C011C6081CCF46CB007B1BDA /* JWBigPictureCell.xib */; };
+		C011C6111CCF4787007B1BDA /* JWThreePicsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C60F1CCF4787007B1BDA /* JWThreePicsCell.m */; };
+		C011C6121CCF4787007B1BDA /* JWThreePicsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C011C6101CCF4787007B1BDA /* JWThreePicsCell.xib */; };
+		C011C6151CCF4822007B1BDA /* JWCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C011C6141CCF4821007B1BDA /* JWCellFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B863AAB6E2E0138F0089698 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7720A22876BF9347472BF1C1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C011C5D51CCF2DAA007B1BDA /* JWCutWeightForVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWCutWeightForVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C011C5D91CCF2DAA007B1BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C011C5DB1CCF2DAA007B1BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C011C5DC1CCF2DAA007B1BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C011C5DE1CCF2DAA007B1BDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C011C5DF1CCF2DAA007B1BDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C011C5E21CCF2DAA007B1BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C011C5E41CCF2DAA007B1BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C011C5E71CCF2DAA007B1BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C011C5E91CCF2DAA007B1BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C011C5EF1CCF36BF007B1BDA /* JWNetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNetTool.h; sourceTree = "<group>"; };
+		C011C5F01CCF36BF007B1BDA /* JWNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNetTool.m; sourceTree = "<group>"; };
+		C011C5F21CCF39BC007B1BDA /* JWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTableViewController.h; sourceTree = "<group>"; };
+		C011C5F31CCF39BC007B1BDA /* JWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTableViewController.m; sourceTree = "<group>"; };
+		C011C5F51CCF3B7B007B1BDA /* JWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWModel.h; sourceTree = "<group>"; };
+		C011C5F61CCF3B7B007B1BDA /* JWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWModel.m; sourceTree = "<group>"; };
+		C011C5F81CCF3D21007B1BDA /* JWViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWViewModel.h; sourceTree = "<group>"; };
+		C011C5F91CCF3D21007B1BDA /* JWViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWViewModel.m; sourceTree = "<group>"; };
+		C011C5FB1CCF3F7A007B1BDA /* JWWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWWebViewController.h; sourceTree = "<group>"; };
+		C011C5FC1CCF3F7A007B1BDA /* JWWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWebViewController.m; sourceTree = "<group>"; };
+		C011C6011CCF45CA007B1BDA /* JWOnePictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWOnePictureCell.h; sourceTree = "<group>"; };
+		C011C6021CCF45CA007B1BDA /* JWOnePictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWOnePictureCell.m; sourceTree = "<group>"; };
+		C011C6031CCF45CA007B1BDA /* JWOnePictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWOnePictureCell.xib; sourceTree = "<group>"; };
+		C011C6061CCF46CB007B1BDA /* JWBigPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWBigPictureCell.h; sourceTree = "<group>"; };
+		C011C6071CCF46CB007B1BDA /* JWBigPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWBigPictureCell.m; sourceTree = "<group>"; };
+		C011C6081CCF46CB007B1BDA /* JWBigPictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWBigPictureCell.xib; sourceTree = "<group>"; };
+		C011C60E1CCF4787007B1BDA /* JWThreePicsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWThreePicsCell.h; sourceTree = "<group>"; };
+		C011C60F1CCF4787007B1BDA /* JWThreePicsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWThreePicsCell.m; sourceTree = "<group>"; };
+		C011C6101CCF4787007B1BDA /* JWThreePicsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWThreePicsCell.xib; sourceTree = "<group>"; };
+		C011C6131CCF4821007B1BDA /* JWCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCellFactory.h; sourceTree = "<group>"; };
+		C011C6141CCF4821007B1BDA /* JWCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCellFactory.m; sourceTree = "<group>"; };
+		C140A8B584C749DD9C8C641C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF704E857238DDFDC6028190 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45AEC782492EC4F02BE67AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7720A22876BF9347472BF1C1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C011C5CC1CCF2DAA007B1BDA = {
 			isa = PBXGroup;
 			children = (
 				C011C5D71CCF2DAA007B1BDA /* JWCutWeightForVC */,
 				C011C5D61CCF2DAA007B1BDA /* Products */,
+				D031B68A2354B53E406FDB6F /* Pods */,
+				45AEC782492EC4F02BE67AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +103,27 @@
 			children = (
 				C011C5DB1CCF2DAA007B1BDA /* AppDelegate.h */,
 				C011C5DC1CCF2DAA007B1BDA /* AppDelegate.m */,
-				C011C5DE1CCF2DAA007B1BDA /* ViewController.h */,
-				C011C5DF1CCF2DAA007B1BDA /* ViewController.m */,
-				C011C5E11CCF2DAA007B1BDA /* Main.storyboard */,
+				C011C5F21CCF39BC007B1BDA /* JWTableViewController.h */,
+				C011C5F31CCF39BC007B1BDA /* JWTableViewController.m */,
+				C011C5FB1CCF3F7A007B1BDA /* JWWebViewController.h */,
+				C011C5FC1CCF3F7A007B1BDA /* JWWebViewController.m */,
+				C011C5EF1CCF36BF007B1BDA /* JWNetTool.h */,
+				C011C5F01CCF36BF007B1BDA /* JWNetTool.m */,
+				C011C5F51CCF3B7B007B1BDA /* JWModel.h */,
+				C011C5F61CCF3B7B007B1BDA /* JWModel.m */,
+				C011C5F81CCF3D21007B1BDA /* JWViewModel.h */,
+				C011C5F91CCF3D21007B1BDA /* JWViewModel.m */,
+				C011C6011CCF45CA007B1BDA /* JWOnePictureCell.h */,
+				C011C6021CCF45CA007B1BDA /* JWOnePictureCell.m */,
+				C011C6031CCF45CA007B1BDA /* JWOnePictureCell.xib */,
+				C011C6061CCF46CB007B1BDA /* JWBigPictureCell.h */,
+				C011C6071CCF46CB007B1BDA /* JWBigPictureCell.m */,
+				C011C6081CCF46CB007B1BDA /* JWBigPictureCell.xib */,
+				C011C60E1CCF4787007B1BDA /* JWThreePicsCell.h */,
+				C011C60F1CCF4787007B1BDA /* JWThreePicsCell.m */,
+				C011C6101CCF4787007B1BDA /* JWThreePicsCell.xib */,
+				C011C6131CCF4821007B1BDA /* JWCellFactory.h */,
+				C011C6141CCF4821007B1BDA /* JWCellFactory.m */,
 				C011C5E41CCF2DAA007B1BDA /* Assets.xcassets */,
 				C011C5E61CCF2DAA007B1BDA /* LaunchScreen.storyboard */,
 				C011C5E91CCF2DAA007B1BDA /* Info.plist */,
@@ -79,6 +140,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D031B68A2354B53E406FDB6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B863AAB6E2E0138F0089698 /* Pods.debug.xcconfig */,
+				C140A8B584C749DD9C8C641C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C011C5EC1CCF2DAA007B1BDA /* Build configuration list for PBXNativeTarget "JWCutWeightForVC" */;
 			buildPhases = (
+				17031656D83BC55E74C062A4 /* Check Pods Manifest.lock */,
 				C011C5D11CCF2DAA007B1BDA /* Sources */,
 				C011C5D21CCF2DAA007B1BDA /* Frameworks */,
 				C011C5D31CCF2DAA007B1BDA /* Resources */,
+				5DCBF11DB069DD62D4D93895 /* Embed Pods Frameworks */,
+				F13F947B9B0A5C221B1C8B2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,20 +209,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C011C60A1CCF46CB007B1BDA /* JWBigPictureCell.xib in Resources */,
+				C011C6121CCF4787007B1BDA /* JWThreePicsCell.xib in Resources */,
 				C011C5E81CCF2DAA007B1BDA /* LaunchScreen.storyboard in Resources */,
+				C011C6051CCF45CA007B1BDA /* JWOnePictureCell.xib in Resources */,
 				C011C5E51CCF2DAA007B1BDA /* Assets.xcassets in Resources */,
-				C011C5E31CCF2DAA007B1BDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17031656D83BC55E74C062A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCBF11DB069DD62D4D93895 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13F947B9B0A5C221B1C8B2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C011C5D11CCF2DAA007B1BDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C011C5E01CCF2DAA007B1BDA /* ViewController.m in Sources */,
+				C011C6091CCF46CB007B1BDA /* JWBigPictureCell.m in Sources */,
+				C011C5F41CCF39BC007B1BDA /* JWTableViewController.m in Sources */,
+				C011C6111CCF4787007B1BDA /* JWThreePicsCell.m in Sources */,
+				C011C5F11CCF36BF007B1BDA /* JWNetTool.m in Sources */,
+				C011C5F71CCF3B7B007B1BDA /* JWModel.m in Sources */,
+				C011C5FD1CCF3F7A007B1BDA /* JWWebViewController.m in Sources */,
+				C011C6151CCF4822007B1BDA /* JWCellFactory.m in Sources */,
+				C011C6041CCF45CA007B1BDA /* JWOnePictureCell.m in Sources */,
+				C011C5FA1CCF3D21007B1BDA /* JWViewModel.m in Sources */,
 				C011C5DD1CCF2DAA007B1BDA /* AppDelegate.m in Sources */,
 				C011C5DA1CCF2DAA007B1BDA /* main.m in Sources */,
 			);
@@ -158,14 +289,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C011C5E11CCF2DAA007B1BDA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C011C5E21CCF2DAA007B1BDA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C011C5E61CCF2DAA007B1BDA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,6 +384,7 @@
 		};
 		C011C5ED1CCF2DAA007B1BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B863AAB6E2E0138F0089698 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JWCutWeightForVC/Info.plist;
@@ -272,6 +396,7 @@
 		};
 		C011C5EE1CCF2DAA007B1BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C140A8B584C749DD9C8C641C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JWCutWeightForVC/Info.plist;
@@ -300,6 +425,7 @@
 				C011C5EE1CCF2DAA007B1BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
